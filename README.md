@@ -1,1 +1,58 @@
-# Prueba-T-cnica
+# 🧪 Prueba Técnica: Desarrollo de un Sistema de Login y Visualización de Datos
+
+**📅 Fecha límite de entrega:** 15 de julio de 2025  
+**🎯 Objetivo:** Diseñar e implementar una aplicación web donde el usuario deba iniciar sesión y, según su rol, se muestre la información correspondiente.
+
+---
+
+Usa el archivo `usuarios.json` para obtener los datos de los usuarios. Puedes añadir más usuarios si lo deseas, siempre y cuando siga la misma estructura.
+
+## ✅ Requisitos
+
+### 1. Funcionalidad
+
+- [ ] Sistema de login con autenticación básica (usuario y contraseña).
+- [ ] Gestión de sesiones (el usuario debe permanecer autenticado mientras navega).
+- [ ] Roles de usuario al menos de dos tipos: `admin` y `usuario`.
+- [ ] Visualización de datos en una tabla (puede ser estática o cargada desde un archivo JSON o base de datos).
+- [ ] El contenido de la tabla debe variar según el rol:
+  - **Admin:** puede ver todos los datos.
+  - **Usuario:** solo puede ver los datos que le correspondan (por ejemplo, filtrados por su ID o nombre).
+- [ ] Logout funcional.
+
+---
+
+### 2. Requisitos Técnicos
+
+- [ ] Debes utilizar obligatoriamente el stack tecnológico (recomendado: HTML/CSS/JavaScript/JQuery + backend en Python Litestar).
+- [ ] El frontend debe ser claro y funcional (no se requiere diseño avanzado).
+- [ ] El backend debe validar credenciales y manejar sesiones.
+- [ ] Código bien estructurado y comentado.
+- [ ] No se permite el uso de frameworks de autenticación externos (como Firebase Auth o Auth0).
+
+---
+
+### 3. Extras (Opcionales)
+
+- [ ] Uso de DataTables o similar para la visualización de datos.
+- [ ] Implementación de hashing de contraseñas.
+- [ ] Uso de base de datos (SQLite, MySQL, MongoDB, etc.).
+- [ ] Pruebas unitarias básicas.
+- [ ] Despliegue en un servidor gratuito (ej. Render, Vercel, Netlify, etc.).
+
+---
+
+### 4. Entregables
+
+- Código fuente en un repositorio (GitHub, GitLab, etc.).
+- Instrucciones claras para ejecutar el proyecto localmente (`README.md`).
+
+---
+
+### 5. Criterios de Evaluación
+
+- Cumplimiento de los requisitos funcionales.
+- Claridad y organización del código.
+- Seguridad básica implementada.
+- Buenas prácticas de desarrollo.
+- Creatividad y valor agregado (si aplica).
