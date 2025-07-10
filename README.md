@@ -32,9 +32,7 @@ La visibilidad de los datos en la aplicación depende del rol del usuario autent
 - [ ] Gestión de sesiones (el usuario debe permanecer autenticado mientras navega).
 - [ ] Roles de usuario al menos de tres tipos: `admin`, `usuario` y `supervisor`.
 - [ ] Visualización de datos en una tabla (puede ser estática o cargada desde un archivo JSON o base de datos).
-- [ ] El contenido de la tabla debe variar según el rol:
-  - **Admin:** puede ver todos los datos.
-  - **Usuario:** solo puede ver los datos que le correspondan (por ejemplo, filtrados por su ID o nombre).
+- [ ] El contenido de la tabla debe variar según el rol.
 - [ ] Logout funcional.
 
 ---
