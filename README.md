@@ -71,3 +71,9 @@ La visibilidad de los datos en la aplicación depende del rol del usuario autent
 - [ ] Seguridad básica implementada.
 - [ ] Buenas prácticas de desarrollo.
 - [ ] Creatividad y valor agregado (si aplica).
+
+---
+
+## Referencias
+
+- [ ] Documentación de Framework Litestar: https://litestar.dev/
