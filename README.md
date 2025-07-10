@@ -23,6 +23,7 @@ La visibilidad de los datos en la aplicación depende del rol del usuario autent
   - [ ] ✅ Solo puede ver **sus propios datos**.
   - [ ] ❌ No puede ver a otros usuarios, sin importar su rol.
 
+---
 
 ## ✅ Requisitos
 
