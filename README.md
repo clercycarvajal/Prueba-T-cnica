@@ -7,6 +7,23 @@
 
 Usa el archivo `usuarios.json` para obtener los datos de los usuarios. Puedes añadir más usuarios si lo deseas, siempre y cuando siga la misma estructura.
 
+## 🔐 Reglas de Visualización por Rol
+
+La visibilidad de los datos en la aplicación depende del rol del usuario autenticado. A continuación se detallan las reglas:
+
+- **Admin**
+  - ✅ Puede ver los datos de **todos los usuarios**.
+  - Incluye: otros administradores, supervisores y usuarios.
+
+- **Supervisor**
+  - ✅ Puede ver los datos de **supervisores** y **usuarios**.
+  - ❌ **No puede ver** los datos de usuarios con rol **admin**.
+
+- **Usuario**
+  - ✅ Solo puede ver **sus propios datos**.
+  - ❌ No puede ver a otros usuarios, sin importar su rol.
+
+
 ## ✅ Requisitos
 
 ### 1. Funcionalidad
