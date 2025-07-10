@@ -12,16 +12,16 @@ Usa el archivo `usuarios.json` para obtener los datos de los usuarios. Puedes a�
 La visibilidad de los datos en la aplicación depende del rol del usuario autenticado. A continuación se detallan las reglas:
 
 - **Admin**
-  - ✅ Puede ver los datos de **todos los usuarios**.
-  - Incluye: otros administradores, supervisores y usuarios.
+  - [ ] ✅ Puede ver los datos de **todos los usuarios**.
+  - [ ] Incluye: otros administradores, supervisores y usuarios.
 
 - **Supervisor**
-  - ✅ Puede ver los datos de **supervisores** y **usuarios**.
-  - ❌ **No puede ver** los datos de usuarios con rol **admin**.
+  - [ ] ✅ Puede ver los datos de **supervisores** y **usuarios**.
+  - [ ] ❌ **No puede ver** los datos de usuarios con rol **admin**.
 
 - **Usuario**
-  - ✅ Solo puede ver **sus propios datos**.
-  - ❌ No puede ver a otros usuarios, sin importar su rol.
+  - [ ] ✅ Solo puede ver **sus propios datos**.
+  - [ ] ❌ No puede ver a otros usuarios, sin importar su rol.
 
 
 ## ✅ Requisitos
@@ -59,15 +59,15 @@ La visibilidad de los datos en la aplicación depende del rol del usuario autent
 
 ### 4. Entregables
 
-- Código fuente en un repositorio (GitHub, GitLab, etc.).
-- Instrucciones claras para ejecutar el proyecto localmente (`README.md`).
+- [ ] Código fuente en un repositorio (GitHub, GitLab, etc.).
+- [ ] Instrucciones claras para ejecutar el proyecto localmente (`README.md`).
 
 ---
 
 ### 5. Criterios de Evaluación
 
-- Cumplimiento de los requisitos funcionales.
-- Claridad y organización del código.
-- Seguridad básica implementada.
-- Buenas prácticas de desarrollo.
-- Creatividad y valor agregado (si aplica).
+- [ ] Cumplimiento de los requisitos funcionales.
+- [ ] Claridad y organización del código.
+- [ ] Seguridad básica implementada.
+- [ ] Buenas prácticas de desarrollo.
+- [ ] Creatividad y valor agregado (si aplica).
