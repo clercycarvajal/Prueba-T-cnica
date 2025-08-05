@@ -1,6 +1,6 @@
 # 🧪 Prueba Técnica: Desarrollo de un Sistema de Login y Visualización de Datos
 
-**📅 Fecha límite de entrega:** 22 de julio de 2025 máximo 23:59 hrs.  
+**📅 Fecha límite de entrega:** Disponible en el correo.  
 **🎯 Objetivo:** Diseñar e implementar una aplicación web donde el usuario deba iniciar sesión y, según su rol, se muestre la información correspondiente.
 
 ---
